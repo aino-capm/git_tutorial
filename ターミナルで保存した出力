@@ -1,0 +1,152 @@
+Last login: Sat Jul 16 13:02:51 on console
+(base) an.@enoMacBook-Air ~ % cd ~/Documents/Git 
+(base) an.@enoMacBook-Air Git % mkdir git_tutorial
+(base) an.@enoMacBook-Air Git % cd git_tutorial
+(base) an.@enoMacBook-Air git_tutorial % git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /Users/an./Documents/Git/git_tutorial/.git/
+(base) an.@enoMacBook-Air git_tutorial % ls -a
+.	..	.git
+(base) an.@enoMacBook-Air git_tutorial % ls .git/
+HEAD		config		description	hooks		info		objects		refs
+(base) an.@enoMacBook-Air git_tutorial % cd ~/Documents/Git
+(base) an.@enoMacBook-Air Git % git clone https://github.com/atom/atom.git
+Cloning into 'atom'...
+remote: Enumerating objects: 203956, done.
+remote: Counting objects: 100% (15/15), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 203956 (delta 10), reused 10 (delta 10), pack-reused 203941
+Receiving objects: 100% (203956/203956), 321.99 MiB | 7.45 MiB/s, done.
+Resolving deltas: 100% (144749/144749), done.
+(base) an.@enoMacBook-Air Git % cd atom
+(base) an.@enoMacBook-Air atom % ls -a
+.				CHANGELOG.md			benchmarks			resources
+..				CODE_OF_CONDUCT.md		coffeelint.json			script
+.coffeelintignore		CONTRIBUTING.md			docs				spec
+.eslintignore			Dockerfile			dot-atom			src
+.eslintrc.json			LICENSE.md			exports				static
+.git				PULL_REQUEST_TEMPLATE.md	keymaps				stylelint.config.js
+.gitattributes			README.md			menus				vendor
+.github				SUPPORT.md			package-lock.json
+.gitignore			apm				package.json
+.prettierrc			atom.sh				packages
+(base) an.@enoMacBook-Air atom % cd ~/Documents/Git/git_tutorial
+(base) an.@enoMacBook-Air git_tutorial % ls -a
+.		..		.git		index.html
+(base) an.@enoMacBook-Air git_tutorial % git add .
+(base) an.@enoMacBook-Air git_tutorial % git commit
+hint: Waiting for your editor to close the file... 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+initial commit
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#       new file:   index.html
+#
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+~                                                                                                                                    
+-- INSERT --
